@@ -1,0 +1,7 @@
+$fonts-path: '~@packlink/giger/dist/assets/fonts';
+
+@import '~@packlink/giger/dist/styles/themes/giger';
+
+body {
+    background-color: $white;
+}

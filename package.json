@@ -1,0 +1,102 @@
+{
+  "name": "gig",
+  "version": "0.1.0",
+  "description": "GIG - a pilot Design System",
+  "private": true,
+  "config": {
+    "sass_importer": "node_modules/node-sass-package-importer/dist/cli.js"
+  },
+  "dependencies": {
+    "@packlink/giger": "^13.1.1",
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-modal": "3.10.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "yarn storybook & yarn build:watch",
+    "build": "react-scripts build",
+    "build:watch": "node-sass --importer $npm_package_config_sass_importer ./src/styles/main.scss ./dist/static/css/main.css --include-path ./src/styles",
+    "test": "jest --config jest.config.js",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "7.5.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
+    "@babel/polyfill": "7.4.4",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@babel/register": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@packlink/commitlint-config": "1.3.5",
+    "@packlink/eslint-config": "2.4.0",
+    "@packlink/remarklint-config": "1.3.4",
+    "@packlink/semantic-config": "1.2.3",
+    "@packlink/stylelint-config": "1.4.0",
+    "@packlink/tslint-config": "2.3.6",
+    "@storybook/addon-a11y": "5.2.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-info": "5.2.6",
+    "@storybook/addon-knobs": "5.2.6",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-options": "5.2.6",
+    "@storybook/addon-storyshots": "5.2.6",
+    "@storybook/addon-viewport": "5.2.6",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-create-react-app": "^2.1.1",
+    "@storybook/react": "^5.3.18",
+    "@types/enzyme": "3.9.3",
+    "@types/jest": "^25.1.4",
+    "@types/react": "16.9.9",
+    "@types/react-dom": "16.9.2",
+    "@types/react-modal": "3.10.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.6",
+    "babel-plugin-module-resolver": "3.2.0",
+    "babel-plugin-require-context-hook": "1.0.0",
+    "babel-preset-react-app": "9.0.1",
+    "babel7-jest": "1.0.1",
+    "commitlint": "7.5.2",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.3.5",
+    "eslint": "6.5.1",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-compat": "3.5.1",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "eslint-plugin-standard": "4.0.1",
+    "jest": "24.8.0",
+    "node-sass-package-importer": "^5.3.2",
+    "remark-cli": "6.0.1",
+    "sass-loader": "7.1.0",
+    "semantic-release": "15.13.3",
+    "ts-jest": "24.0.2",
+    "tslint": "5.20.0",
+    "typescript": "^3.8.3"
+  }
+}

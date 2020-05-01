@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Text Simple example 1`] = `
+Array [
+  <div>
+    <div
+      style="font-family:Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif;color:black;font-weight:300;line-height:1.45;font-size:15px;padding:20px 40px 40px;border-radius:2px;background-color:#fff;border:0"
+    >
+      <div
+        style="border-bottom:1px solid #eee;padding-top:10px;margin-bottom:10px"
+      >
+        <h1
+          style="margin:0;padding:0;font-size:35px"
+        >
+          Components/Text
+        </h1>
+        <h2
+          style="margin:0 0 10px 0;padding:0;font-weight:400;font-size:22px"
+        >
+          Simple example
+        </h2>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="story-root"
+    style="padding:0 40px"
+  >
+    <span>
+      Simple example
+    </span>
+  </div>,
+  <div>
+    <div
+      style="font-family:Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif;color:black;font-weight:300;line-height:1.45;font-size:15px;padding:20px 40px 40px;border-radius:2px;background-color:#fff;border:0"
+    >
+      <h1
+        style="margin:20px 0 0 0;padding:0 0 5px 0;font-size:25px;border-bottom:1px solid #EEE"
+      >
+        Story Source
+      </h1>
+      <div
+        class="css-1fhpnuv"
+      >
+        <div
+          class="css-1si67pu"
+          data-simplebar="true"
+        >
+          <div
+            class="simplebar-wrapper"
+          >
+            <div
+              class="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                class="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              class="simplebar-mask"
+            >
+              <div
+                class="simplebar-offset"
+              >
+                <div
+                  class="simplebar-content-wrapper"
+                >
+                  <div
+                    class="simplebar-content"
+                  >
+                    <pre
+                      class="hljs css-4zr3vl"
+                    >
+                      <code
+                        class="css-1maezg8"
+                      >
+                        <span
+                          class="token tag"
+                        >
+                          <span
+                            class="token tag"
+                          >
+                            <span
+                              class="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            span
+                          </span>
+                          <span
+                            class="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                        <span
+                          class="token plain-text"
+                        >
+                          
+  Simple example
+
+                        </span>
+                        <span
+                          class="token tag"
+                        >
+                          <span
+                            class="token tag"
+                          >
+                            <span
+                              class="token punctuation"
+                            >
+                              &lt;/
+                            </span>
+                            span
+                          </span>
+                          <span
+                            class="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="simplebar-placeholder"
+            />
+          </div>
+          <div
+            class="simplebar-track simplebar-horizontal"
+          >
+            <div
+              class="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            class="simplebar-track simplebar-vertical"
+          >
+            <div
+              class="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          class="css-11xgcgt"
+        >
+          <button
+            class="css-1imo1gr"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

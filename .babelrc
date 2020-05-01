@@ -1,0 +1,26 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        ["@babel/preset-react", {"flow": false, "typescript": true}],
+        ["@babel/preset-typescript", {"isTSX": true, "allExtensions": true}]
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-proposal-optional-chaining",
+        ["module-resolver", {
+            "root": ["./"],
+            "alias": {
+                "@components": "./src/components",
+                "@styles": "./src/styles",
+                "@mocks": "./src/tests/__mocks__/components",
+                "@assets": "./src/assets"
+            }
+        }]
+    ],
+    "env": {
+        "test": {
+            "plugins": ["require-context-hook"]
+        }
+    }
+}
