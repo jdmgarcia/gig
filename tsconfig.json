@@ -5,5 +5,5 @@
     "target": "es5",
     "lib": ["es5", "es6", "es7", "esnext", "dom"],
     "rootDirs": ["src", "stories"],
-    "include": ["src/**/*", "src/stories/**/***/*", "src/tests/**/*", "src/tests/__mocks"]
+    "include": ["src/**/*", "src/stories/**/***/*", "src/tests/**/*", "src/tests/__mocks"],
 }

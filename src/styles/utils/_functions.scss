@@ -1,0 +1,7 @@
+/** Size
+* @param {number} $multiplier - multiplier of the cornerstone
+* @return {rem} - Desired value
+*/
+@function size($multiplier) {
+    @return $cornerstone * $multiplier;
+}

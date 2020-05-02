@@ -1,0 +1,15 @@
+.navigation {
+    &__list {
+        display: flex;
+        padding: size(2);
+        list-style: none;
+    }
+
+    &__item {
+        margin-left: size(1);
+        
+        .link {
+            padding: size(0.5) size(1);
+        }
+    }
+}

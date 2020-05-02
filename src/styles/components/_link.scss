@@ -1,0 +1,9 @@
+.link {
+    color: $gray;
+    font-weight: $font-weight-semibold;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: $primary;
+    }
+}

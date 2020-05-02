@@ -1,3 +1,7 @@
+/** Size
+* @param {number} $multiplier - multiplier of the cornerstone
+* @return {rem} - Desired value
+*/
 /* stylelint-disable property-no-unknown */
 :export {
   desktop: 1280px;
@@ -2859,5 +2863,30 @@ a {
     font-weight: 600;
     font-size: 14px; }
 
+.header {
+  box-shadow: 0 1px 22px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #fff; }
+
+.navigation__list {
+  display: flex;
+  padding: 1rem;
+  list-style: none; }
+
+.navigation__item {
+  margin-left: 0.5rem; }
+  .navigation__item .link {
+    padding: 0.25rem 0.5rem; }
+
+.link {
+  color: #9b9b9b;
+  font-weight: 600;
+  transition: color 0.2s ease-in-out; }
+  .link:hover {
+    color: #ff5f00; }
+
 body {
-  background-color: red; }
+  background-color: #fff; }
