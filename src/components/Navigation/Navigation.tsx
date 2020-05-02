@@ -14,7 +14,7 @@ const Navigation = (props: INavigationProps): JSX.Element => {
         <nav className="navigation">
             <ul className="navigation__list">
                 {links.map((link, index) => (
-                    <li key={index} className="navigation__item">
+                    <li className="navigation__item" key={index}>
                         <Link label={link.label} url={link.url} />
                     </li>
                 ))}

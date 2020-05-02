@@ -9,7 +9,7 @@ const Link = (props: ILinkProps): JSX.Element => {
     const {label, url} = props;
 
     return (
-        <a href={url} className="link">{label}</a>
+        <a className="link" href={url}>{label}</a>
     );
 };
 

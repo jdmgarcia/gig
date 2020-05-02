@@ -2,6 +2,8 @@
     @include get-elevation-box-shadow(1px);
 
     display: flex;
+    justify-content: space-between;
+    align-content: center;
     width: 100%;
     margin-bottom: size(3);
     padding: size(2);

@@ -11,8 +11,8 @@ const Logo = (props: ILogoProps): JSX.Element => {
     const {url, image, title, description} = props;
 
     return (
-        <a href={url} className="logo">
-            <img src={image} title={title} alt={description} />
+        <a className="logo" href={url}>
+            <img className="logo__image" src={image} title={title} alt={description} />
         </a>
     );
 };

@@ -3,6 +3,7 @@ $fonts-path: '~@packlink/giger/dist/assets/fonts';
 @import 'variables/variables';
 @import 'utils/functions';
 @import '~@packlink/giger/dist/styles/themes/giger';
+@import "storybook";
 @import "components";
 
 body {

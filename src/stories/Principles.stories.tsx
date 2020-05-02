@@ -6,7 +6,7 @@ storiesOf('Components/Principles', module)
         return (
             <section className="principles">
                 <p>A fundamental truth and proposition that serves as the foundation for GIG.</p>
-                <p><blockquote>'cause GIGER is more than GIG</blockquote></p>
+                <p><blockquote className="sb">'cause GIGER is more than GIG</blockquote></p>
                 <ul className="principles-content">
                     <li>
                         <h2>Easy</h2>
