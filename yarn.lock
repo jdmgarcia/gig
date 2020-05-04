@@ -13611,11 +13611,6 @@ moment-locales-webpack-plugin@^1.2.0:
   dependencies:
     lodash.difference "^4.5.0"
 
-moment@2.18.1:
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
-  integrity sha1-w2GT3Tzhwu7SrbfIAtu8d6gbHA8=
-
 moment@>=1.6.0:
   version "2.25.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.25.0.tgz#e961ab9a5848a1cf2c52b1af4e6c82a8401e7fe9"
@@ -13625,6 +13620,11 @@ moment@^2.18.1, moment@^2.22.2:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+
+moment@^2.25.1:
+  version "2.25.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.25.1.tgz#1cb546dca1eccdd607c9324747842200b683465d"
+  integrity sha512-nRKMf9wDS4Fkyd0C9LXh2FFXinD+iwbJ5p/lh3CHitW9kZbRbJ8hCruiadiIXZVbeAqKZzqcTvHnK3mRhFjb6w==
 
 moo@^0.5.0:
   version "0.5.1"
@@ -16668,7 +16668,7 @@ react-modal@3.10.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
-react-moment-proptypes@^1.6.0, react-moment-proptypes@^1.7.0:
+react-moment-proptypes@^1.6.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/react-moment-proptypes/-/react-moment-proptypes-1.7.0.tgz#89881479840a76c13574a86e3bb214c4ba564e7a"
   integrity sha512-ZbOn/P4u469WEGAw5hgkS/E+g1YZqdves2BjYsLluJobzUZCtManhjHiZKjniBVT7MSHM6D/iKtRVzlXVv3ikA==

@@ -3,7 +3,7 @@ import * as React from 'react';
 
 import { Logo, ILogoProps } from '../components';
 import { Header, Navigation, ILinkProps } from '../components';
-// import { Button, ButtonTheme } from '@packlink/giger';
+import { Button, ButtonTheme } from '@packlink/giger';
 
 const packlinkLogo: ILogoProps = {
     url: '/',
@@ -29,7 +29,7 @@ storiesOf('Components/Header', module)
             <Header>
                 <Logo {...packlinkLogo} />
                 <Navigation links={navigationLinks} />
-                {/* <Button label="Do you have an online store?" theme={ButtonTheme.SECONDARY} /> */}
+                <Button label="Do you have an online store?" theme={ButtonTheme.SECONDARY} />
             </Header>
         );
     });
