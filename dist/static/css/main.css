@@ -2863,6 +2863,30 @@ a {
     font-weight: 600;
     font-size: 14px; }
 
+ul.sb {
+  list-style: none;
+  margin-left: 2rem;
+  margin-bottom: 2rem; }
+
+dl {
+  margin-bottom: 2rem; }
+
+dt {
+  margin-bottom: 0.25rem;
+  color: #ff5f00;
+  font-weight: 600; }
+
+dd {
+  margin-bottom: 1rem;
+  margin-left: 2rem; }
+
+table {
+  margin-bottom: 2rem; }
+
+table, th, td {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #5e5e5e; }
+
 blockquote.sb {
   position: relative;
   margin: 0;
@@ -2888,10 +2912,42 @@ blockquote.sb {
     flex: 0 1 50%;
     margin-bottom: 1rem;
     padding: 0 0.5rem; }
-  .principles-content h2 {
+  .principles-content h3 {
     padding-bottom: 1rem;
     color: #ff5f00;
     border-bottom: 2px solid #ffcdb8; }
+
+.typography > h3 {
+  padding-bottom: 1rem;
+  color: #ff5f00;
+  border-bottom: 2px solid #ffcdb8; }
+
+.typography--bold {
+  font-weight: 700; }
+
+.typography--semibold {
+  font-weight: 600; }
+
+.typography--normal {
+  font-weight: 400; }
+
+.typography--body-color {
+  color: #5e5e5e; }
+
+.typography--body-normal {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400; }
+
+.typography--body-size {
+  font-size: 16px; }
+
+.text-content__container {
+  display: flex; }
+  .text-content__container > * {
+    margin-right: 1.5rem; }
+
+.text-content .caption {
+  white-space: nowrap; }
 
 .header {
   box-shadow: 0 1px 22px 0 rgba(0, 0, 0, 0.12);
@@ -2902,6 +2958,8 @@ blockquote.sb {
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #fff; }
+  .header .navigation {
+    margin-left: auto; }
 
 .navigation__list {
   display: flex;
@@ -2924,6 +2982,34 @@ blockquote.sb {
   display: flex; }
   .logo__image {
     min-width: 125px; }
+
+.heading {
+  color: #174470;
+  font-weight: 600; }
+  .heading--h1 {
+    margin-bottom: 1.5rem; }
+  .heading--h2 {
+    margin-bottom: 1.1rem; }
+  .heading--h3 {
+    margin-bottom: 0.9rem; }
+  .heading--h4 {
+    margin-bottom: 0.7rem; }
+  .heading--h5 {
+    margin-bottom: 0.6rem; }
+  .heading--h6 {
+    margin-bottom: 0.5rem; }
+
+.caption {
+  margin-bottom: 0.5rem;
+  font-style: italic; }
+  .caption--1 {
+    font-size: 0.90451rem; }
+  .caption--2 {
+    font-size: 1.30902rem; }
+  .caption--3 {
+    font-size: 1.71353rem; }
+  .caption--4 {
+    font-size: 2.11803rem; }
 
 body {
   background-color: #fff; }

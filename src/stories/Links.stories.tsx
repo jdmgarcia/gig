@@ -8,8 +8,8 @@ const link: ILinkProps = {
     url: '/'
 };
 
-storiesOf('Components/Links', module)
-    .add('Links', () => {
+storiesOf('Components/Link', module)
+    .add('Link', () => {
         return (
             <Link {...link} />
         );

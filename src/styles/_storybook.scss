@@ -1,3 +1,33 @@
+ul.sb {
+    list-style: none;
+    margin-left: size(4);
+    margin-bottom: size(4);
+}
+
+dl {
+    margin-bottom: size(4);
+}
+
+dt {
+    margin-bottom: size(0.5);
+    color: $primary;
+    font-weight: $font-weight-semibold;
+}
+
+dd {
+    margin-bottom: size(2);
+    margin-left: size(4);
+}
+
+table {
+    margin-bottom: size(4);
+}
+
+table, th, td {
+    padding: size(0.5) size(1);
+    border: 1px solid $gray--dark;
+}
+
 blockquote.sb {
     position: relative;
     margin: 0;
@@ -29,9 +59,58 @@ blockquote.sb {
         padding: 0 size(1);
     }
 
-    h2 {
+    h3 {
         padding-bottom: size(2);
         color: $primary;
         border-bottom: 2px solid $primary--light;
+    }
+}
+
+.typography {
+    > h3 {
+        padding-bottom: size(2);
+        color: $primary;
+        border-bottom: 2px solid $primary--light;
+    }
+}
+
+.typography--bold {
+    font-weight: $font-weight-bold;
+}
+
+.typography--semibold {
+    font-weight: $font-weight-semibold;
+}
+
+.typography--normal {
+    font-weight: $font-weight-normal;
+}
+
+.typography--body-color {
+    color: $font-color;
+}
+
+.typography--body-normal {
+    font-family: $font-family;
+    font-weight: $font-weight;
+}
+
+.typography--body-size {
+    font-size: $font-size-base;
+}
+
+.text-content {
+    margin-bottom: size(6);
+
+    &__container {
+        display: flex;
+
+        > * {
+            margin-right: size(3);
+        }
+    }
+
+    .caption {
+        white-space: nowrap;
     }
 }

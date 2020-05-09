@@ -1,0 +1,39 @@
+$delta: 0.75;
+$sizes: 1, 2, 3, 4;
+
+.p {
+    margin-top: 0;
+    margin-bottom: size(2);
+
+    @each $size in $sizes {
+        &--#{$size} {
+            font-size: size(1 + $delta * $size);
+        }
+    }
+}
+
+.caption {
+    margin-bottom: size(1);
+    font-style: italic;
+
+    @each $size in $sizes {
+        &--#{$size} {
+            font-size: size(1 + $delta * $size);
+        }
+    }
+}
+
+.code {
+    display: block;
+    margin-bottom: size(2);
+    padding: size(2);
+    background-color: $gray--ultralight;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+
+    @each $size in $sizes {
+        &--#{$size} {
+            font-size: size(1 + $delta * $size);
+        }
+    }
+}
